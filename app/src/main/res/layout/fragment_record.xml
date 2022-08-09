@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".Fragments.Record_Fragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:ignore="UselessParent">
+
+        <ImageView
+            android:layout_width="250dp"
+            android:layout_gravity="center"
+            android:layout_margin="10dp"
+            android:src="@drawable/dog"
+            android:layout_height="190dp"
+            android:contentDescription="@string/front_logo" />
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="wrap_content"
+            android:layout_gravity="center"
+            app:cardCornerRadius="10dp"
+            android:backgroundTint="#B4D8DD"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:padding="10dp"
+                android:textAlignment="center"
+                android:fontFamily="@font/montserrat"
+                android:textColor="#000"
+                android:text="@string/record_your_commands_that_catch_your_pets"/>
+        </androidx.cardview.widget.CardView>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="250dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="40dp"
+            app:boxBackgroundColor="#EDF4E4"
+            app:boxCornerRadiusTopEnd="10dp"
+            app:boxCornerRadiusTopStart="10dp"
+            android:layout_height="wrap_content">
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="match_parent"
+                android:id="@+id/commandtitle"
+                android:hint="@string/enter_the_recording_title"
+                android:layout_height="wrap_content">
+
+            </com.google.android.material.textfield.TextInputEditText>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:id="@+id/saved_Commands"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#617E95"
+                android:layout_gravity="center_horizontal"
+                android:layout_margin="20dp"
+                android:text="@string/saved_commands"/>
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2dp"
+            android:layout_gravity="center"
+            android:orientation="horizontal">
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/start_record"
+                android:backgroundTint="#DF7979"
+                android:layout_margin="10dp"
+                android:text="@string/record"
+                tools:ignore="ButtonStyle" />
+            <Button
+                android:layout_width="wrap_content"
+                android:id="@+id/stop_record"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#A64C7D"
+                android:layout_margin="10dp"
+                android:text="@string/stop"
+                tools:ignore="ButtonStyle" />
+
+
+        </LinearLayout>
+
+        <Chronometer
+            android:layout_width="wrap_content"
+            android:layout_gravity="center"
+            android:textSize="30sp"
+            android:id="@+id/chronometer"
+            android:layout_margin="20dp"
+            android:layout_height="wrap_content"/>
+
+
+
+
+
+
+    </LinearLayout>
+</FrameLayout>

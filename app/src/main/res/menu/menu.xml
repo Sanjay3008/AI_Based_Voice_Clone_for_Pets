@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group  android:checkableBehavior="single">
+        <item android:id="@+id/to_record_voice"
+            android:title="Record Commands"
+            android:icon="@drawable/ic_record_voice">
+        </item>
+        <item android:id="@+id/saved_voice"
+            android:title="Saved Commands"
+            android:icon="@drawable/ic_saved_voice">
+        </item>
+        <item android:id="@+id/text_to_speech"
+            android:title="Text To Speech"
+            android:icon="@drawable/text_to_speech">
+        </item>
+        <item android:id="@+id/voice"
+            android:title="Your Voice"
+            android:icon="@drawable/ic_voice_input">
+            <menu>
+                <item android:id="@+id/your_voice"
+                    android:title="Your Recorded Voice"
+                    android:icon="@drawable/ic_record_voice">
+                </item>
+                <item android:id="@+id/voice_input"
+                    android:title="Voice Input for Training"
+                    android:icon="@drawable/ic_voice_input">
+
+                </item>
+            </menu>
+
+        </item>
+
+    </group>
+</menu>

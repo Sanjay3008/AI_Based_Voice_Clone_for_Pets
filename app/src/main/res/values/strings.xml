@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">Xfinity PetInteractive System</string>
+    <string name="app_launcher_logo">app_launcher_logo</string>
+    <string name="open">Open</string>
+    <string name="close">Close</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="record_your_commands_that_catch_your_pets">Record Your Commands that catch your Pets</string>
+    <string name="enter_the_recording_title">Enter the Recording Title</string>
+    <string name="start">Start</string>
+    <string name="save">Save</string>
+    <string name="play_btn">play_btn</string>
+    <string name="delete_btn">delete_btn</string>
+    <string name="enter_the_file_name">Enter the File Name</string>
+    <string name="file_name">File Name</string>
+    <string name="send">Send</string>
+    <string name="recording_saved_successfully">Recording Saved Successfully</string>
+    <string name="search">Search</string>
+    <string name="record_your_voice_for_training">Record your voice for training</string>
+    <string name="kindly_ensure_you_are_in_a_noise_free_environment_while_recording">Read the given paragraph in loud for recording. Kindly ensure you are in a noise-free environment while recording</string>
+    <string name="paragraph_pets">" Pets are not human but display a lot of human qualities like strong personalities, emotions, preferences, etc. While pets are mere domesticated animals for those who do not possess them, for those few who do they are not just dogs, cats, or birds; they are family.Pets work wonders for your body, soul, and mind. They stimulate your sense of well-being. They give you love, they give you laughter, but above all they give you happiness. They don’t care about your looks, your financial status, your social standing, your creed, your race, your age, your state of health. They see you for who you are; minus the trappings of your daily existence. It is probably this quality of unconditional acceptance that sets pets apart from humans.Pets are not a cure, and not a substitute. They are a recommendation for happiness, fun, friendship, love, activity and better health."</string>
+    <string name="dismiss">DISMISS</string>
+    <string name="info">info</string>
+    <string name="voice_item">voice_item</string>
+    <string name="title">Title</string>
+    <string name="pet_interactive_system">Pet Interactive System</string>
+    <string name="front_logo">front_logo</string>
+    <string name="record">Record</string>
+    <string name="stop">Stop</string>
+    <string name="xifinty_pet_interactive_system">Xfinity Pet Interactive System</string>
+    <string name="text_to_speech">Text to Speech</string>
+    <string name="title_to_be_saved">Title to be saved</string>
+    <string name="enter_your_command">Enter Your Command</string>
+    <string name="saved_commands">Saved Commands</string>
+    <string name="dismiss1">DISMISS</string>
+    <string name="your_voice">Your Voice</string>
+</resources>

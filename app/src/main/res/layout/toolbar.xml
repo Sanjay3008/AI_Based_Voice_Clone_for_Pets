@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.appcompat.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:id="@+id/toolbar"
+        android:background="#334E6C">
+        <TextView
+            android:layout_width="wrap_content"
+            android:text="@string/xifinty_pet_interactive_system"
+            android:id="@+id/Tool_text"
+            android:textColor="#fff"
+            android:fontFamily="@font/montserrat"
+            android:layout_marginStart="30dp"
+            android:textSize="17sp"
+            android:layout_height="wrap_content"/>
+    </androidx.appcompat.widget.Toolbar>
+
+</LinearLayout>
