@@ -55,7 +55,7 @@ public class text_to_Speech extends Fragment {
 
     OkHttpClient httpClient;
 
-    String url = "http://88ac-35-184-63-184.ngrok.io";
+    String url = "Voice Clone Server URL";                                              // Needs to be changed once hosted.
 
     Button start_convert;
     TextInputEditText command_send, command_title;
